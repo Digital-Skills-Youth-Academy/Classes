@@ -9,7 +9,7 @@ class RetiredForagerBee extends ForagerBee{
   forage() {
     return 'I am too old, let me play cards instead';
   }
-  gamble() {
-    this.treasureChest.push('treasure');
+  gamble(treasure) {
+    this.treasureChest.push(treasure);
   }
 };
